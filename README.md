@@ -1,2 +1,3 @@
-# practicing-pgTAP
+# Practicing pgTAP
+
 Testing everything against PostgreSQL
