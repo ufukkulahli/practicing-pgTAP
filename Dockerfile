@@ -1,17 +1,18 @@
-FROM alpine
+FROM postgres
 
 # install tools
-RUN apk add --no-cache --update \
-    postgresql-dev \
-    postgresql-client \
+RUN apt-get update && \
+    apt-get install -y \
+    postgresql-server-dev-$PG_MAJOR \
     git \
     make \
     perl \
-    perl-dev \
     curl
 
 # install pg_prove
-RUN cpan TAP::Parser::SourceHandler::pgTAP
+RUN curl -LO http://xrl.us/cpanm \
+    && chmod +x cpanm \
+    && ./cpanm TAP::Parser::SourceHandler::pgTAP
 
 # install pgtap
 RUN git clone git://github.com/theory/pgtap.git && \
