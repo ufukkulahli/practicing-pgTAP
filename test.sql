@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS pgtap;
+
 -- Start transaction and plan the tests.
 BEGIN;
 SELECT plan(1);
