@@ -1,11 +1,13 @@
-CREATE EXTENSION IF NOT EXISTS pgtap;
-
 -- Start transaction and plan the tests.
 BEGIN;
 SELECT plan(1);
 
+
+
 -- Run the tests.
 SELECT pass( 'Passing test' );
+
+
 
 -- Finish the tests and clean up.
 SELECT * FROM finish();

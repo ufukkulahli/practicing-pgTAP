@@ -7,5 +7,6 @@ docker exec \
              -U postgres \
              -d postgres \
              -a \
-             -f \
-             /app/create/schema.sql
+             -f /app/create/extension.sql \
+             -f /app/create/schema.sql \
+             -f /app/create/table.sql
