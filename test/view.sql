@@ -3,8 +3,12 @@ SELECT plan(1);
 
 
 
--- <has_view> ASSERTS THAT GIVEN VIEW EXISTS UNDER <hello> SCHEMA.
-SELECT has_view( 'hello', 'asserts that <comedies> view exists' );
+SELECT has_view
+(
+  'hello',
+  'comedies',
+  'asserts that <comedies> view exists'
+);
 
 
 
