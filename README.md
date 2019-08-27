@@ -10,3 +10,4 @@ Testing existence of
 * [tables](test/table.sql)
 * [functions](test/function.sql)
 * [views](test/view.sql)
+* [extensions](test/extension.sql)
