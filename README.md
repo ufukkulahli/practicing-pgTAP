@@ -11,3 +11,6 @@ Testing existence of
 * [functions](test/function.sql)
 * [views](test/view.sql)
 * [extensions](test/extension.sql)
+* [roles](test/role.sql)
+* [users](test/user.sql)
+* [languages](test/language.sql)
