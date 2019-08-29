@@ -19,3 +19,5 @@ RUN git clone git://github.com/theory/pgtap.git && \
     cd pgtap && \
     make && \
     make install
+
+EXPOSE 5432

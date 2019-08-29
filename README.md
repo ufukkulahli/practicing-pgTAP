@@ -14,3 +14,8 @@ Testing existence of
 * [roles](test/role.sql)
 * [users](test/user.sql)
 * [languages](test/language.sql)
+
+Testing what a table has got
+
+* [specific column types](test/column_type.sql)
+* [a primary key](test/primary_key.sql)
