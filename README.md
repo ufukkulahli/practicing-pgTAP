@@ -6,21 +6,25 @@ Anatomy of a test: [example](test/example.sql)
 
 Testing existence of
 
-* [schemas](test/schema.sql)
-* [tables](test/table.sql)
-* [functions](test/function.sql)
-* [views](test/view.sql)
-* [extensions](test/extension.sql)
-* [roles](test/role.sql)
-* [users](test/user.sql)
-* [languages](test/language.sql)
+* [schemas](test/existence_of/schema.sql)
+* [tables](test/existence_of/table.sql)
+* [functions](test/existence_of/function.sql)
+* [views](test/existence_of/view.sql)
+* [extensions](test/existence_of/extension.sql)
+* [roles](test/existence_of/role.sql)
+* [users](test/existence_of/user.sql)
+* [languages](test/existence_of/language.sql)
 
 Testing what a table has got
 
-* [specific column types](test/column_type.sql)
-* [a primary key](test/primary_key.sql)
+* [specific column types](test/table/has/column_type.sql)
+* [a primary key](test/table/has/primary_key.sql)
 
 Testing what a table has NOT got
 
 * [foreign key](test/table/has_not/foreign_key.sql)
 * [column](test/table/has_not/column.sql)
+
+Being precise on what should be intact
+
+* [foreign key](test/columns.sql)
