@@ -19,3 +19,8 @@ Testing what a table has got
 
 * [specific column types](test/column_type.sql)
 * [a primary key](test/primary_key.sql)
+
+Testing what a table has NOT got
+
+* [foreign key](test/table/has_not/foreign_key.sql)
+* [column](test/table/has_not/column.sql)

@@ -7,4 +7,5 @@ docker exec \
              -U postgres \
              -d postgres \
              --ext .sql \
+             --recurse \
              /app/test/
