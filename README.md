@@ -25,6 +25,10 @@ Testing what a table has NOT got
 * [foreign key](test/table/has_not/foreign_key.sql)
 * [column](test/table/has_not/column.sql)
 
-Being precise on what should be intact
+Being precise on what should be intact in DB
 
-* [foreign key](test/columns.sql)
+* [columns of a table](test/columns.sql)
+* [tables](test/tables.sql)
+* [schemas](test/schemas.sql)
+* [views](test/views.sql)
+* [functions](test/functions.sql)
