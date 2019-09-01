@@ -32,3 +32,6 @@ Being precise on what should be intact in DB
 * [schemas](test/schemas.sql)
 * [views](test/views.sql)
 * [functions](test/functions.sql)
+* [roles](test/roles.sql)
+* [users](test/users.sql)
+* [languages](test/languages.sql)
