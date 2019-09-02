@@ -3,7 +3,7 @@ SELECT plan(1);
 
 
 
-SELECT roles_are
+SELECT groups_are
 (
   ARRAY
   [
@@ -12,13 +12,13 @@ SELECT roles_are
     'pg_read_all_settings',
     'pg_read_all_stats',
     'pg_read_server_files',
-    'pg_stat_scan_tables',
-    'pg_write_server_files',
     'pg_signal_backend',
-    'postgres'
+    'pg_stat_scan_tables',
+    'pg_write_server_files'
   ],
-  'asserts that DB has specified array of roles.'
+  'asserts that DB has specified array of groups.'
 );
+
 
 
 SELECT * FROM finish();

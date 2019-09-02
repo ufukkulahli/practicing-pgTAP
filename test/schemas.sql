@@ -5,7 +5,7 @@ SELECT plan(1);
 
 SELECT schemas_are
 (
-  ARRAY['hello'],
+  ARRAY['hello', 'public'],
   'asserts that DB has specified array of schemas.'
 );
 
