@@ -27,11 +27,14 @@ Testing what a table has NOT got
 
 Being precise on what should be intact in DB
 
-* [columns of a table](test/columns.sql)
-* [tables](test/tables.sql)
-* [schemas](test/schemas.sql)
-* [views](test/views.sql)
-* [functions](test/functions.sql)
-* [roles](test/roles.sql)
-* [users](test/users.sql)
-* [languages](test/languages.sql)
+* [columns of a table](test/should_be_intact/columns.sql)
+* [tables](test/should_be_intact/tables.sql)
+* [schemas](test/should_be_intact/schemas.sql)
+* [views](test/should_be_intact/views.sql)
+* [functions](test/should_be_intact/functions.sql)
+* [roles](test/should_be_intact/roles.sql)
+* [users](test/should_be_intact/users.sql)
+* [languages](test/should_be_intact/languages.sql)
+* [extensions](test/should_be_intact/extensions.sql)
+* [groups](test/should_be_intact/groups.sql)
+* [types](test/should_be_intact/types.sql)
