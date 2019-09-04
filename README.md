@@ -39,3 +39,9 @@ Being precise on what should be intact in DB
 * [types](test/should_be_intact/types.sql)
 * [users](test/should_be_intact/users.sql)
 * [views](test/should_be_intact/views.sql)
+
+Knowing exceptions and successes
+
+* [a test that asserting an exception is being thrown](test/exceptions_and_successes/throws_ok.sql)
+* [a test that asserting there is no exception is being thrown](test/exceptions_and_successes/lives_ok.sql)
+
