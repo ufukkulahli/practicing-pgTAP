@@ -44,4 +44,6 @@ Knowing exceptions and successes
 
 * [a test that asserting an exception is being thrown](test/exceptions_and_successes/throws_ok.sql)
 * [a test that asserting there is no exception is being thrown](test/exceptions_and_successes/lives_ok.sql)
+* [a test that asserting the performance of a query](test/exceptions_and_successes/performs_ok.sql)
+* [a test that asserting the performance of a query in a range](test/exceptions_and_successes/performs_within.sql)
 
