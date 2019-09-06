@@ -47,3 +47,5 @@ Knowing exceptions and successes
 * [a test that asserting the performance of a query](test/exceptions_and_successes/performs_ok.sql)
 * [a test that asserting the performance of a query in a range](test/exceptions_and_successes/performs_within.sql)
 
+Simple assertions
+* [ok'ness of a test](test/ok.sql)
