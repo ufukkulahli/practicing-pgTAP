@@ -51,3 +51,4 @@ Simple assertions
 
 * [ok'ness of a test](test/ok.sql)
 * [ok'ness of a test with a query](test/ok_with_query.sql)
+* [assert two values](test/is.sql)
