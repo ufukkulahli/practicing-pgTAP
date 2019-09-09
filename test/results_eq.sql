@@ -10,22 +10,22 @@ VALUES
   'HRR',
   'ELMSTREET',
   1,
-  NULL,
+  CURRENT_DATE,
   'HORROR',
-  NULL
+  '1 hours 65 minutes'
 );
 
 SELECT results_eq
 (
-  'select * from hello.films',
+  'SELECT * FROM hello.films',
   $$VALUES
   (
-    'HRR  '::varchar(5),
-    'ELMSTREET'::varchar(40),
-    1::integer,
-    NULL::date,
-    'HORROR'::varchar(10),
-    NULL::interval hour to minute
+    'HRR '               ::BPCHAR,
+    'ELMSTREET'          ::VARCHAR(40),
+    1                    ::INTEGER,
+    CURRENT_DATE         ::DATE,
+    'HORROR'             ::VARCHAR(10),
+    '1 hours 65 minutes' ::INTERVAL
   )$$
 );
 
