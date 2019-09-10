@@ -53,3 +53,6 @@ Simple assertions
 * [ok'ness of a test with a query](test/ok_with_query.sql)
 * [assert two values that should be same](test/is.sql)
 * [assert two values that should be different](test/isnt.sql)
+* [comparing equality of results](test/results_eq.sql)
+* [assert that query returns NO data](test/is_empty.sql)
+* [assert that query returns data](test/isnt_empty.sql)
