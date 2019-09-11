@@ -56,3 +56,4 @@ Simple assertions
 * [comparing equality of results](test/simple_assertions/results_eq.sql)
 * [assert that query returns NO data](test/simple_assertions/is_empty.sql)
 * [assert that query returns data](test/simple_assertions/isnt_empty.sql)
+* [comparing equality of rows](test/simple_assertions/row_eq.sql)
