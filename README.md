@@ -49,10 +49,10 @@ Knowing exceptions and successes
 
 Simple assertions
 
-* [ok'ness of a test](test/ok.sql)
-* [ok'ness of a test with a query](test/ok_with_query.sql)
-* [assert two values that should be same](test/is.sql)
-* [assert two values that should be different](test/isnt.sql)
-* [comparing equality of results](test/results_eq.sql)
-* [assert that query returns NO data](test/is_empty.sql)
-* [assert that query returns data](test/isnt_empty.sql)
+* [ok'ness of a test](test/simple_assertions/ok.sql)
+* [ok'ness of a test with a query](test/simple_assertions/ok_with_query.sql)
+* [assert two values that should be same](test/simple_assertions/is.sql)
+* [assert two values that should be different](test/simple_assertions/isnt.sql)
+* [comparing equality of results](test/simple_assertions/results_eq.sql)
+* [assert that query returns NO data](test/simple_assertions/is_empty.sql)
+* [assert that query returns data](test/simple_assertions/isnt_empty.sql)
