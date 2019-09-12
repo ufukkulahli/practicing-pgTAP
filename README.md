@@ -21,6 +21,7 @@ Testing what a table has got
 * [a primary key](test/table/has/primary_key.sql)
 * [specific column types](test/table/has/column_type.sql)
 * [specified columns](test/table/has/column.sql)
+* [specified not null columns](test/table/has/not_null_column.sql)
 
 Testing what a table has NOT got
 
