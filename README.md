@@ -23,6 +23,7 @@ Testing what a table has got
 * [specified columns](test/table/has/column.sql)
 * [specified not null columns](test/table/has/not_null_column.sql)
 * [specified null columns](test/table/has/null_column.sql)
+* [specified index](test/table/has/index.sql)
 
 Testing what a table has NOT got
 
