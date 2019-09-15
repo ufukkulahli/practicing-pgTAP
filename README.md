@@ -43,6 +43,7 @@ Being precise on what should be intact in DB
 * [types](test/should_be_intact/types.sql)
 * [users](test/should_be_intact/users.sql)
 * [views](test/should_be_intact/views.sql)
+* [indexes](test/should_be_intact/indexes.sql)
 
 Knowing exceptions and successes
 
