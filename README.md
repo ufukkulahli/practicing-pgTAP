@@ -25,6 +25,7 @@ Testing what a table has got
 * [specified not null columns](test/table/has/not_null_column.sql)
 * [specified null columns](test/table/has/null_column.sql)
 * [specified index](test/table/has/index.sql)
+* [a unique column](test/table/has/unique_column.sql)
 
 Testing what a table has NOT got
 

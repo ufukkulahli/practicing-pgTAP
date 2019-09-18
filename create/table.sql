@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS hello.films (
     code        char(5) CONSTRAINT firstkey PRIMARY KEY,
-    title       varchar(40) NOT NULL,
+    title       varchar(40) UNIQUE NOT NULL,
     did         integer NOT NULL,
     date_prod   date,
     kind        varchar(10),

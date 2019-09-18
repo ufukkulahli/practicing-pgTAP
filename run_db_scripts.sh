@@ -11,4 +11,5 @@ docker exec \
              -f /app/create/schema.sql \
              -f /app/create/table.sql \
              -f /app/create/function.sql \
-             -f /app/create/index.sql
+             -f /app/create/index.sql \
+             -f /app/create/view.sql \
