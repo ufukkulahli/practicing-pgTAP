@@ -27,6 +27,7 @@ Testing what a table has got
 * [specified index](test/table/has/index.sql)
 * [a unique column](test/table/has/unique_column.sql)
 * [a unique constraint](test/table/has/unique_constraint.sql)
+* [indexed or not](test/table/has/indexed.sql)
 
 Testing what a table has NOT got
 
